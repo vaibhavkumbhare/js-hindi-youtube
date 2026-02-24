@@ -23,4 +23,30 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber ="vaibhav"
 
 let stringNumber =String(someNumber)
-console.log(someNumber)
+// console.log(someNumber)
+
+
+//***************** Operations ***************** */
+
+let value = 3
+let negvalue = -value
+// console.log(negvalue);
+
+let stp1 = "vai"
+let stp2 = "bhav"
+
+let stp3 = stp1 +stp2
+
+// console.log(stp3);
+/*
+console.log("1" + 2);
+console.log(1 + "2");
+console.log(1 + 2 + "2")
+console.log(1 + 2 + 2);
+
+console.log((3 + 4) * 5 % 3);
+*/
+
+let gameCounter =100
+++gameCounter;
+console.log(gameCounter);
