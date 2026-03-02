@@ -36,7 +36,7 @@ const user = {
 
 // const adddTwo =(num1, num2) =>  num1 + num2
 
-const adddTwo =(num1, num2) =>  ({username:"Harsh"})f
+const adddTwo =(num1, num2) =>  ({username:"Harsh"})
 
 
 console.log(adddTwo(5,4))
