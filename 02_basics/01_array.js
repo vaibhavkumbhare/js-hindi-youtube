@@ -13,18 +13,18 @@ console.log(myHeors[0])
 // myArr.shift()
 // console.log(myArr);
 
-// console.log(myArr.includes(5));
-// console.log(myHeors.indexOf('Raj'));
+console.log(myArr.includes(5));
+// console.log("1",myHeors.indexOf('Raj'));
 
 const newArr = myArr.join()
-// console.log(myArr)
+console.log(myArr)
 // console.log(newArr)
 
 // slice, splice
 
 console.log("A " ,myArr);
 
-const myn1 = myArr.slice(1,4)
+const myn1 = myArr.slice(1,3)
 
 console.log(myn1);
 console.log("b ", myArr);
@@ -33,3 +33,5 @@ const myn2 = myArr.splice(1,3)
 console.log("c ", myArr);
 
 console.log(myn2)
+
+
