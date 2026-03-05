@@ -17,7 +17,7 @@ const all_new_heros =[...marvel_hero,  ...dc_hero]  //  sace o/p is concat
 // console.log(real_another_array);
 
 
-console.log(Array.isArray("Vaibhav"))
+console.log("uhuhuy",Array.isArray())
 console.log(Array.from("Vaibhav"))
 console.log(Array.from({name: "Vaibhva"})) 
 
