@@ -35,7 +35,7 @@ let negvalue = -value
 let stp1 = "vai"
 let stp2 = "bhav"
 
-let stp3 = stp1 +stp2
+let stp3 = stp1 + stp2
 
 // console.log(stp3);
 /*

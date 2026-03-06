@@ -28,8 +28,9 @@ let myObj= {
 }
 
 const myFunction = function(){
-    // console.log("Hello woeld");
+    console.log("Hello woeld");
 } 
+// myFunction();
 
 console.log(typeof hero);
 

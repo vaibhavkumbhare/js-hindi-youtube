@@ -28,7 +28,7 @@ const newObj = { "name": "vaibhav" }
 
 //  const obj3 = {obj1, obj2}
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
-const obj3 = {... obj1, ...obj2}
+const obj3 = {... obj1, ...obj2, ...obj4 }
 // console.log(obj3);
 
 const users = [
@@ -66,7 +66,7 @@ const course = {
     courseInstructor: "hitesh"
 }
 
-const {courseInstructor: instructor} = course 
+const {courseInstructor: instructor} = course // property name defind hova hai
 console.log(instructor); 
 
 

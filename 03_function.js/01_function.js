@@ -22,7 +22,7 @@ function addTwoNumber(number1,number2){
     return result
 }
 const result = addTwoNumber(3 ,5) 
-// console.log("Result: ", result);
+console.log("Result: ", result);
 
 
 function logiUserMessage(username){

@@ -13,7 +13,7 @@ const gameName = new String('Hitesh-hc')
 // console.log(gameName.toUpperCase());
 // console.log(gameName.charAt(2))
 // console.log(gameName.indexOf('t'));
-console.log(gameName.split('-'))
+// console.log(gameName.split('-'))
 
 const newString = gameName.substring(0, 4)
 // console.log(newString);

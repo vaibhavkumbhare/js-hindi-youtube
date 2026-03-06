@@ -11,7 +11,7 @@
 
 // console.log(undefined == 0);
 // console.log(undefined < 0);
-// console.log(undefined < 0);
+// console.log(undefined > 0);
 
 
 
@@ -29,8 +29,8 @@
 
 let myYoutubename = "vaibhav@google.com"
 
-// let anothername = myYoutubename
-let anothername = "Youtube"
+let anothername = myYoutubename
+// let anothername = "Youtube"
 
 // console.log(myYoutubename);
 // console.log(anothername);
@@ -44,6 +44,7 @@ let userOne = {
     email:"user@gmail.com",
     upi:"user@ybl"
 }
+
 let userTwo = userOne
 userTwo.email = "vaibhav.gmail.com"
 
