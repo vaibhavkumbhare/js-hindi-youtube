@@ -37,6 +37,8 @@ const user = {
 
 // const adddTwo =(num1, num2) =>  num1 + num2
 
+// const adddTwo =(num1, num2) =>  (num1 + num2)
+
 const adddTwo =(num1, num2) =>  ({username:"Harsh"})
 
 
