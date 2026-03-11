@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic | DOM </title>
+</head>
+<body style="background-color: #212121; color: #fff;;">
+    <h1>Hii All for You!</h1>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addLaguage (langName){
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li) 
+    }
+    addLaguage("Python")
+    addLaguage("Typescript")
+    addLaguage("Javascript")
+
+     function addOptiLanhuage (langName) {
+       const li = document.createElement('li')
+       li.appendChild(document.createTextNode(langName))
+       document.querySelector('language').appendChild(li)
+     }
+     addLaguage("golang")
+
+
+     // Edit
+     const secondLang = document.querySelector("li:nth-child(2)")
+    //  secondLang.innerHTML = "Mojo"
+    const newli = document.createElement('li')
+    newli.textContent = "mojo"
+    secondLang.replaceWith(newli)
+</script>
+</html>
